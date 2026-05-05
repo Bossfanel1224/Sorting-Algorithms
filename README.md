@@ -21,3 +21,8 @@ West University of Timișoara.
 - `results.txt` — raw output from the runs presented in the paper
 
 ## Compile and run
+```
+g++ -O2 -std=c++17 main.cpp -o sorting
+./sorting
+```
+The program prints the average running time in milliseconds for every combination of algorithm, input type, and array size.
