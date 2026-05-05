@@ -1,0 +1,110 @@
+Bubble Sort
+  n=10:
+    random:      0.2 ms
+    sorted:      0 ms
+    half-sorted: 0 ms
+    reverse:     0 ms
+  n=1000:
+    random:      6.4 ms
+    sorted:      0 ms
+    half-sorted: 3.6 ms
+    reverse:     6.6 ms
+  n=100000:
+    random:      78138.4 ms
+    sorted:      0.4 ms
+    half-sorted: 74135.2 ms
+    reverse:     86483.6 ms
+
+Selection Sort
+  n=10:
+    random:      0 ms
+    sorted:      0 ms
+    half-sorted: 0 ms
+    reverse:     0 ms
+  n=1000:
+    random:      2.2 ms
+    sorted:      2.6 ms
+    half-sorted: 2.4 ms
+    reverse:     2.4 ms
+  n=100000:
+    random:      20327.6 ms
+    sorted:      20481.4 ms
+    half-sorted: 20311.6 ms
+    reverse:     21169.6 ms
+
+Insertion Sort
+  n=10:
+    random:      0 ms
+    sorted:      0 ms
+    half-sorted: 0 ms
+    reverse:     0 ms
+  n=1000:
+    random:      1.8 ms
+    sorted:      0 ms
+    half-sorted: 0.4 ms
+    reverse:     4.4 ms
+  n=100000:
+    random:      19473.2 ms
+    sorted:      0.8 ms
+    half-sorted: 22659.6 ms
+    reverse:     40346.2 ms
+
+Heap Sort
+  n=10:
+    random:      0 ms
+    sorted:      0 ms
+    half-sorted: 0 ms
+    reverse:     0 ms
+  n=1000:
+    random:      0.4 ms
+    sorted:      0.2 ms
+    half-sorted: 0.4 ms
+    reverse:     0.2 ms
+  n=100000:
+    random:      31.6 ms
+    sorted:      28.8 ms
+    half-sorted: 30 ms
+    reverse:     27.6 ms
+
+Quick Sort
+  n=10:
+    random:      0 ms
+    sorted:      0 ms
+    half-sorted: 0 ms
+    reverse:     0 ms
+  n=1000:
+    random:      0 ms
+    sorted:      0.2 ms
+    half-sorted: 0 ms
+    reverse:     0.2 ms
+  n=100000:
+    random:      20.8 ms
+    sorted:      12.8 ms
+    half-sorted: 16.8 ms
+    reverse:     14.6 ms
+
+Merge Sort
+  n=10:
+    random:      0 ms
+    sorted:      0 ms
+    half-sorted: 0 ms
+    reverse:     0 ms
+  n=1000:
+    random:      0.4 ms
+    sorted:      0.2 ms
+    half-sorted: 0.4 ms
+    reverse:     0.4 ms
+  n=100000:
+    random:      45.2 ms
+    sorted:      34.2 ms
+    half-sorted: 39.2 ms
+    reverse:     33 ms
+
+Bogo Sort
+  n=10:
+    random:      1357.32 ms
+    sorted:      0.0004 ms
+    half-sorted: 1997.98 ms
+    reverse:     648.505 ms
+  n=1000:    skipped (too slow)
+  n=100000:  skipped (too slow)
